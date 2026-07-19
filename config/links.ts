@@ -14,35 +14,42 @@ export type SocialLink = {
 // Para agregar una red: sumá un objeto al array (y si el ícono no está
 // en lib/icons.tsx, agregalo ahí primero).
 // Para quitar una: borrá su objeto. El layout se recalcula solo según
-// cuántos links haya, no hace falta tocar ningún otro archivo.
+// cuántos links haya.
 export const links: SocialLink[] = [
   {
     id: "instagram",
     label: "Instagram",
-    url: "https://instagram.com/tuusuario",
+    url: "https://www.instagram.com/diegoferrua/",
     icon: "instagram",
     color: "#E1306C",
   },
   {
     id: "tiktok",
     label: "TikTok",
-    url: "https://tiktok.com/@tuusuario",
+    url: "https://www.tiktok.com/@diego.ferrua",
     icon: "tiktok",
     color: "#25F4EE",
   },
   {
     id: "youtube",
     label: "YouTube",
-    url: "https://youtube.com/@tuusuario",
+    url: "https://www.youtube.com/@diegoferrua742",
     icon: "youtube",
     color: "#FF0000",
   },
   {
     id: "github",
     label: "GitHub",
-    url: "https://github.com/tuusuario",
+    url: "https://github.com/Diegoferrua/",
     icon: "github",
     color: "#f0f6fc",
+  },
+  {
+    id: "linkedin",
+    label: "LinkedIn",
+    url: "https://www.linkedin.com/in/diegoferrua/",
+    icon: "linkedin",
+    color: "#0A66C2",
   },
   {
     id: "x",
@@ -50,12 +57,5 @@ export const links: SocialLink[] = [
     url: "https://x.com/tuusuario",
     icon: "x",
     color: "#e7e9ea",
-  },
-  {
-    id: "linkedin",
-    label: "LinkedIn",
-    url: "https://linkedin.com/in/tuusuario",
-    icon: "linkedin",
-    color: "#0A66C2",
-  },
+  }
 ];
