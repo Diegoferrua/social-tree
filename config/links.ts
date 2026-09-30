@@ -54,7 +54,7 @@ export const links: SocialLink[] = [
   {
     id: "x",
     label: "X",
-    url: "https://x.com/tuusuario",
+    url: "https://x.com/DiegoFerrua",
     icon: "x",
     color: "#e7e9ea",
   }
